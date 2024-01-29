@@ -17,29 +17,3 @@ To use the Skip List in your Java project, follow these steps:
 1. Clone this repository or download the source code.
 2. Import the `SkipListSet.java` class into your project.
 3. Create a new instance of the `SkipListSet` class, specifying the data type you want to use (e.g., `SkipListSet<Integer> skipList = new SkipListSet<>();`).
-
-Here's an example of how to create and use a basic Skip List with integer values:
-
-```java
-// Create a Skip List for integers
-SkipListSet<Integer> skipList = new SkipListSet<>();
-
-// Insert values
-skipList.add(10);
-skipList.add(20);
-skipList.add(30);
-
-// Print the Skip List Size
-skipList.size();
-
-// Search for a value
-boolean found = skipList.contains(20);
-
-// Delete a value
-skipList.remove(30);
-
-// Rebalance the Skip List
-skipList.reBalance();
-
-// Print the Skip List Size
-skipList.size();
