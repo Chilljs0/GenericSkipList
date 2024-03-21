@@ -17,3 +17,7 @@ To use the Skip List in your Java project, follow these steps:
 1. Clone this repository or download the source code.
 2. Import the `SkipListSet.java` class into your project.
 3. Create a new instance of the `SkipListSet` class, specifying the data type you want to use (e.g., `SkipListSet<Integer> skipList = new SkipListSet<>();`).
+
+## License
+
+This project is open-sourced under the MIT License. See the LICENSE file for more details.
